@@ -1,0 +1,28 @@
+{
+  "name": "stat-preview-card-component-frontend-mentor",
+  "version": "1.0.0",
+  "description": "solution for front end mentor challange stat preview card component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdeveko/stat-preview-card.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "tailwind"
+  ],
+  "author": "Eko Prasetyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdeveko/stat-preview-card/issues"
+  },
+  "homepage": "https://github.com/webdeveko/stat-preview-card#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
