@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./src/images/favicon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap"
+    />
+    <title>Stats Preview Card Component</title>
+</head>
+<body class="grid min-h-screen place-content-center bg-dark-blue text-white">
+    <main>
+        <div class="bg-blueish m-6 flex flex-col max-w-[550px] md:max-w-[1100px] md:flex-row-reverse overflow-hidden rounded-lg">
+            <picture class="bg-violet md:w-[47%] lg:w-auto">
+                <source media="min-width: 875px" srcset="./src/images/images-header-desktop.jpg">
+                <img src="./src/images/image-header-mobile.jpg" alt="" class="filter-image h-full w-full object-cover" width="540" height="446">
+            </picture>
+            <div class="p-8 md:p-12 text-center md:text-left md:w-[53%] ">
+                <h2 class="font-bold text-[28px] lg:text-4xl">
+                    Get <span class="text-light-violet">insights</span> that help you business grow.
+                  </h2>
+                  <p class="mt-[25px] lg:max-w-[40ch]">
+                    Discover the benefit of data analytics and make better decisions regarding revenue, customer experience, and overall efficientcy.
+                  </p>
+                  <ul role="list" class="mt-[70px] flex flex-col md:flex-row justify-center md:justify-start gap-10 lg:gap-[60px] text-2xl font-bold lg:justify-start ">
+                    <li class="mr-[5px] ">
+                      <p>
+                        10K+
+                      </p>
+                      <p class="text-xs uppercase font-lexend font-normal">companies</p>
+                    </li>
+                    <li>
+                      <p>
+                        341
+                      </p>
+                      <p class="text-xs uppercase font-lexend font-normal">templates</p>
+                    </li>
+                    <li>
+                      <p>
+                        12M+
+                      </p>
+                      <p class="text-xs uppercase font-lexend font-normal">queries</p>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
